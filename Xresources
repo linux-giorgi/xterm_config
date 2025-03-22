@@ -1,0 +1,47 @@
+! =========================
+! XTerm Configuration
+! =========================
+
+! === Font Settings ===
+XTerm*faceName: Monospace
+XTerm*faceSize: 12
+
+! === Colors (Monokai Theme with Brightness Adjustment) ===
+XTerm*background: #2E2A2E 
+XTerm*foreground: #F8F8F2
+
+! Normal Colors (Brightened)
+XTerm*color0:  #3E3B3D
+XTerm*color1:  #FF5D8F
+XTerm*color2:  #B4F57A
+XTerm*color3:  #F7C763
+XTerm*color4:  #78E5F6
+XTerm*color5:  #C287FF
+XTerm*color6:  #A8F4D2
+XTerm*color7:  #F8F8F2
+
+! Bright Colors (More Vibrant)
+XTerm*color8:  #8F7C5E
+XTerm*color9:  #FF5D8F
+XTerm*color10: #B4F57A
+XTerm*color11: #F7C763 
+XTerm*color12: #78E5F6
+XTerm*color13: #C287FF
+XTerm*color14: #A8F4D2
+XTerm*color15: #F8F8F2 
+
+! === Scrollback Buffer ===
+XTerm*saveLines: 10000
+
+! === Cursor Settings ===
+XTerm*cursorStyle: bar
+XTerm*cursorBlink: false
+XTerm*cursorColor: white
+
+! === Scrollbar ===
+XTerm*scrollBar: false
+
+! === Mouse and Focus ===
+XTerm*pointerMode: 1
+XTerm*focusFollowsMouse: false
+
