@@ -4,7 +4,7 @@
 
 ! === Font Settings ===
 XTerm*faceName: Monospace
-XTerm*faceSize: 12
+XTerm*faceSize: 10
 
 ! === Colors (Monokai Theme with Brightness Adjustment) ===
 XTerm*background: #2E2A2E 
