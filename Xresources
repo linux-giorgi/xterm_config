@@ -2,6 +2,13 @@
 ! XTerm Configuration
 ! =========================
 
+! Bind Ctrl+Shift+V to paste (mimicking middle-click paste behavior)
+XTerm*VT100.translations: #override \
+    Ctrl <KeyPress> V: insert-selection()
+
+! Enable the mouse-based copy-paste functionality
+XTerm*selectToClipboard: true
+
 ! === Font Settings ===
 XTerm*faceName: Monospace
 XTerm*faceSize: 10
@@ -44,4 +51,3 @@ XTerm*scrollBar: false
 ! === Mouse and Focus ===
 XTerm*pointerMode: 1
 XTerm*focusFollowsMouse: false
-
